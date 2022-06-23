@@ -1,0 +1,147 @@
+:root {
+    --first-color: #f06469;
+    --second-color: white;
+    --third-color: #f0f3f3;
+    --fourth-color: #2183a1;
+    --shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--fourth-color);
+}
+
+h1 {
+    color: var(--first-color);
+    font-size: 54px;
+    margin: 8px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 16px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+    line-height: 2.5;
+}
+
+p {
+    text-align: justify;
+}
+
+.app-name{
+    text-align: left;
+}
+
+.coloumns p {
+    padding: 24px;
+    margin: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    background: var(--third-color);
+}
+
+.main-page-content {
+    margin-top: 130px;
+}
+
+.about-page-content {
+    margin-top: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 24px auto;
+}
+
+.primary-button, .secondary-button {
+    text-decoration: none;
+    background: var(--first-color);
+    border: 1px solid var(--first-color);
+    color: var(--second-color);
+    font-weight: bold;
+    padding: 16px 24px;
+    margin: 24px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: all 200ms ease-in-out;
+}
+
+.primary-button:hover {
+    background: var(--second-color);
+    color: var(--first-color);
+
+}
+
+.secondary-button {
+    background: var(--second-color);
+    color: var(--first-color);
+    /* box-shadow: none; */
+}
+
+.secondary-button:hover {
+    color: var(--second-color);
+    background: var(--first-color);
+}
+
+.coloumns {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.contact {
+    margin-bottom: 100px;
+}
+
+.email-link{
+    color: var(--first-color);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+    color: var(--first-color);
+}
+
+.homepage-link:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------- */
+
+.bg-fourth-color {
+    background-color: var(--fourth-color) !important;
+}
+
+@media (max-width:768px) {
+    .app-name{
+        text-align: center;
+    }
+
+    .app-button {
+        display: block;
+        margin: 16px auto;
+    }
+
+    .links a{
+    margin: 16px;
+}
+}
