@@ -57,7 +57,12 @@ p {
 }
 
 .about-page-content {
-    margin-top: 100px;
+    max-width: 900px;
+    display: block;
+    margin: 100px auto;
+}
+.about-page-content h1 {
+    margin: 0;
 }
 
 .links {
@@ -102,6 +107,7 @@ p {
     margin: 16px;
 }
 
+
 .contact {
     margin-bottom: 100px;
 }
@@ -123,6 +129,13 @@ p {
 
 .homepage-link:hover {
     text-decoration: underline;
+}
+
+.see-projects-btn {
+    display: block;
+    margin: 16px auto;
+    max-width: 200px;
+    text-align: center;
 }
 
 /* --------------------------- */
