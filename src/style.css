@@ -42,33 +42,24 @@ p {
     text-align: left;
 }
 
-.coloumns p {
-    padding: 24px;
-    margin: 12px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: center;
-    background: var(--third-color);
-}
-
 .main-page-content {
     margin-top: 130px;
 }
 
-.about-page-content {
+.page-content {
     max-width: 900px;
     display: block;
     margin: 100px auto;
 }
-.about-page-content h1 {
+
+.page-content h1 {
     margin: 0;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    margin: 24px auto;
+    margin: 0 auto;
 }
 
 .primary-button, .secondary-button {
@@ -99,17 +90,6 @@ p {
 .secondary-button:hover {
     color: var(--second-color);
     background: var(--first-color);
-}
-
-.coloumns {
-    display: flex;
-    justify-content: center;
-    margin: 16px;
-}
-
-
-.contact {
-    margin-bottom: 100px;
 }
 
 .email-link{

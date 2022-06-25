@@ -28,12 +28,17 @@ let navigationBar = `
               </li>
               <li class="nav-item me-3">
                 <a class="nav-link m-0 text-start" href="about.html" id="about-link" title="Read more about me"
-                  >About me</a
+                  >About</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link m-0 text-start" href="work.html" id="work-link" title="Read more about me"
+                  >My Work</a
                 >
               </li>
               <li class="nav-item me-3">
                 <a class="nav-link m-0 text-start" href="about.html#contact" id="contact-link" title="See contacts"
-                  >Contact me</a
+                  >Contacts</a
                 >
               </li>
             </ul>
@@ -51,4 +56,11 @@ if (document.querySelector("#about-header")) {
     document.querySelector("#about-header").innerHTML = navigationBar;
     document.querySelector("#home-link").classList.remove("active");
     document.querySelector("#about-link").classList.add("active");
+}
+
+if (document.querySelector("#work-header")) {
+    document.querySelector("#work-header").innerHTML = navigationBar;
+    document.querySelector("#home-link").classList.remove("active");
+    document.querySelector("#about-link").classList.remove("active");
+    document.querySelector("#work-link").classList.add("active");
 }
