@@ -41,6 +41,7 @@ p {
 a {
     color:rgba(0, 0, 0, 0.7);
     text-decoration: none;
+    transition: all 100ms ease-in-out;
 }
 
 a:hover {
@@ -59,7 +60,7 @@ a:hover {
 .page-content {
     max-width: 950px;
     display: block;
-    margin: 85px auto;
+    margin: 85px auto 50px;
 }
 
 .page-content h1 {
@@ -112,6 +113,7 @@ a:hover {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    transition: all 100ms ease-in-out;
 }
 
 .email-link:hover {
@@ -130,6 +132,18 @@ a:hover {
     text-align: center;
 }
 
+.social-media {
+    max-width: 130px;
+    margin: 0 auto;
+}
+
+.social-media i {
+    transition: all 100ms ease-in-out;
+}
+
+.social-media i:hover {
+    color: var(--first-color);
+}
 /* --------------------------- */
 
 .bg-fourth-color {
@@ -137,6 +151,10 @@ a:hover {
 }
 
 @media (max-width:768px) {
+    h1 {
+        font-size: 40px;
+    }
+
     .app-name{
         text-align: center;
     }

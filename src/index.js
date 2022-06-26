@@ -1,5 +1,5 @@
 let navigationBar = `
- <nav
+      <nav
         class="navbar navbar-expand-md navbar-dark bg-dark bg-fourth-color fixed-top"
       >
         <div class="container">
@@ -66,3 +66,35 @@ if (document.querySelector("#contact-header")) {
     document.querySelector("#contact-header").innerHTML = navigationBar;
     document.querySelector("#contact-link").classList.add("active");
 }
+
+let footer=`
+      <div class="container">
+        <p class="text-center">
+          <a href="mailto:tashastinger@ua.fm">tashastinger@ua.fm</a>
+        </p>
+        <div class="social-media d-flex justify-content-between">
+          <a href="https://github.com/TashaStinger" target="_blank">
+            <h3 class="fs-4 lh-sm">
+              <i class="fa-brands fa-github"></i>
+            </h3>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/natalia-chaplia/"
+            target="_blank"
+          >
+            <h3 class="fs-4 lh-sm">
+              <i class="fa-brands fa-linkedin"></i>
+            </h3>
+          </a>
+
+          <a href="https://twitter.com/tasha_stinger" target="_blank">
+            <h3 class="fs-4 lh-sm">
+              <i class="fa-brands fa-twitter"></i>
+            </h3>
+          </a>
+        </div>
+      </div>
+`;
+
+document.querySelector("#footer").innerHTML = footer;
