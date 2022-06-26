@@ -37,7 +37,7 @@ let navigationBar = `
                 >
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link m-0 text-start" href="contact.html" id="contact-link" title="See contacts"
+                <a class="nav-link m-0 text-start" href="contacts.html" id="contact-link" title="See contacts"
                   >Contact</a
                 >
               </li>
