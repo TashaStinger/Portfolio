@@ -19,7 +19,7 @@ let navigationBar = `
             <ul class="navbar-nav ms-5">
               <li class="nav-item me-3">
                 <a
-                  class="nav-link active m-0 text-start"
+                  class="nav-link m-0 text-start"
                   href="index.html"
                   id="home-link"
                   title="Home page"
@@ -37,7 +37,7 @@ let navigationBar = `
                 >
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link m-0 text-start" href="about.html#contact" id="contact-link" title="See contacts"
+                <a class="nav-link m-0 text-start" href="contacts.html" id="contacts-link" title="See contacts"
                   >Contacts</a
                 >
               </li>
@@ -49,18 +49,20 @@ let navigationBar = `
 
 if (document.querySelector("#header")) {
     document.querySelector("#header").innerHTML = navigationBar;
-
+    document.querySelector("#home-link").classList.add("active");
 }
 
 if (document.querySelector("#about-header")) {
     document.querySelector("#about-header").innerHTML = navigationBar;
-    document.querySelector("#home-link").classList.remove("active");
     document.querySelector("#about-link").classList.add("active");
 }
 
 if (document.querySelector("#work-header")) {
     document.querySelector("#work-header").innerHTML = navigationBar;
-    document.querySelector("#home-link").classList.remove("active");
-    document.querySelector("#about-link").classList.remove("active");
     document.querySelector("#work-link").classList.add("active");
+}
+
+if (document.querySelector("#contacts-header")) {
+    document.querySelector("#contacts-header").innerHTML = navigationBar;
+    document.querySelector("#contacts-link").classList.add("active");
 }
