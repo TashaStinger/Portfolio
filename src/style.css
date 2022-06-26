@@ -88,6 +88,7 @@ a:hover {
 .primary-button:hover {
     background: var(--second-color);
     color: var(--first-color);
+    text-decoration: none;
 
 }
 
@@ -100,6 +101,7 @@ a:hover {
 .secondary-button:hover {
     color: var(--second-color);
     background: var(--first-color);
+    text-decoration: none;
 }
 
 .email-link{
