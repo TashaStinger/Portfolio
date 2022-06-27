@@ -100,7 +100,7 @@ let footer=`
         <p class="text-center text-muted m-3 fs-6">
           <small>
           This website was coded by Natalia Chaplia, and is 
-          <a href="https://github.com/TashaStinger/Portfolio">open-sourced</a>
+          <a href="https://github.com/TashaStinger/Portfolio" target="_blank">open-sourced</a>
           </small>
         </p>
       </div>
