@@ -105,10 +105,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* .portrait {
-    max-width:200px;
-} */
-
 .see-projects-btn {
     display: block;
     margin: 16px auto;
@@ -128,7 +124,6 @@ a:hover {
 .social-media i:hover {
     color: var(--first-color);
 }
-/* --------------------------- */
 
 .bg-fourth-color {
     background-color: var(--fourth-color) !important;

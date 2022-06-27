@@ -76,7 +76,7 @@ let footer=`
           <a href="mailto:tashastinger@ua.fm" title="Contact me by e-mail">tashastinger@ua.fm</a>
         </p>
         <div class="social-media d-flex justify-content-between">
-          <a href="https://github.com/TashaStinger" target="_blank" title="GitHub">
+          <a href="https://github.com/TashaStinger" target="_blank" title="GitHub profile">
             <h3 class="fs-4 lh-sm">
               <i class="fa-brands fa-github"></i>
             </h3>
@@ -84,19 +84,25 @@ let footer=`
 
           <a
             href="https://www.linkedin.com/in/natalia-chaplia/"
-            target="_blank" title="LinkedIn"
+            target="_blank" title="LinkedIn profile"
           >
             <h3 class="fs-4 lh-sm">
               <i class="fa-brands fa-linkedin"></i>
             </h3>
           </a>
 
-          <a href="https://twitter.com/tasha_stinger" target="_blank" title="Twitter">
+          <a href="https://twitter.com/tasha_stinger" target="_blank" title="Twitter profle">
             <h3 class="fs-4 lh-sm">
               <i class="fa-brands fa-twitter"></i>
             </h3>
           </a>
         </div>
+        <p class="text-center text-muted m-3 fs-6">
+          <small>
+          This website was coded by Natalia Chaplia, and is 
+          <a href="https://github.com/TashaStinger/Portfolio">open-sourced</a>
+          </small>
+        </p>
       </div>
 `;
 
