@@ -105,25 +105,9 @@ a:hover {
     text-decoration: none;
 }
 
-.email-link{
-    color: var(--first-color);
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    transition: all 100ms ease-in-out;
-}
-
-.email-link:hover {
-    text-decoration: underline;
-    color: var(--first-color);
-}
-
-.homepage-link:hover {
-    text-decoration: underline;
-}
+/* .portrait {
+    max-width:200px;
+} */
 
 .see-projects-btn {
     display: block;
