@@ -72,35 +72,30 @@ function showHeader() {
 function showFooter() {
 let footer=`
       <div class="container">
-        <p class="text-center">
-          <a href="mailto:tashastinger@ua.fm" title="Contact me by e-mail">tashastinger@ua.fm</a>
-        </p>
+        <hr />
         <div class="social-media d-flex justify-content-between">
+          <a href="https://www.linkedin.com/in/natalia-chaplia/" target="_blank" title="LinkedIn profile">
+            <h3 class="fs-4 lh-sm">
+              <i class="fa-brands fa-linkedin"></i>
+            </h3>
+          </a>
+
           <a href="https://github.com/TashaStinger" target="_blank" title="GitHub profile">
             <h3 class="fs-4 lh-sm">
               <i class="fa-brands fa-github"></i>
             </h3>
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/natalia-chaplia/"
-            target="_blank" title="LinkedIn profile"
-          >
+          <a href="mailto:tashastinger@ua.fm" title="Contact me by e-mail" target="_blank">
             <h3 class="fs-4 lh-sm">
-              <i class="fa-brands fa-linkedin"></i>
-            </h3>
-          </a>
-
-          <a href="https://twitter.com/tasha_stinger" target="_blank" title="Twitter profle">
-            <h3 class="fs-4 lh-sm">
-              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-envelope"></i>
             </h3>
           </a>
         </div>
-        <p class="text-center text-muted m-3 fs-6">
+        <p class="text-center text-muted m-2 mb-3 fs-6">
           <small>
-          This website was coded by Natalia Chaplia, and is 
-          <a href="https://github.com/TashaStinger/Portfolio" target="_blank">open-sourced</a>
+          <a href="https://github.com/TashaStinger/Portfolio" target="_blank" title="See it on GitHub">
+            Open-source code</a>, by Natalia Chaplia
           </small>
         </p>
       </div>
